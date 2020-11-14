@@ -6,3 +6,30 @@
  * Compo Style About
  * 
  */
+.h2About {
+    font-size: 3em;
+    display: inline-block;
+	margin: 0 0 0.8em;
+}
+p {
+    font-size: 1em;
+    margin-bottom: 0;
+}
+.profile {
+    max-width: 300px;
+  }
+.about {
+    background-color: transparent;
+    font-size: 1.1em;
+  }
+.my-details {
+    background-color: #ffffffbe;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .h2About {
+            font-size: 2.5em;
+        }
+
+}

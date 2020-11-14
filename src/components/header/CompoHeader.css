@@ -19,6 +19,7 @@
     box-shadow: 1px 1px 1px #222;
     animation: moveDown 0.5s ease-in-out;
 }
+
 @keyframes moveDown {
     from {
       transform: translateY(-5rem);
@@ -30,4 +31,11 @@
 h1.h1Nav{
     margin-bottom: 0em;
     font-size: 30px;
+    color: #61dafb; 
+}
+
+@media screen and (max-width: 780px) {
+  h1.h1Nav {
+    font-size: 20px;
+  }
 }
