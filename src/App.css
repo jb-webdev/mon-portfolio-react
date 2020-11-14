@@ -70,4 +70,7 @@ body {
     font-size: 1.35em;
 }
 
-
+ul {
+    list-style: none;
+    padding-left: 0;
+}
