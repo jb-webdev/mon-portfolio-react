@@ -18,6 +18,7 @@ npx create-react-app mon-portfolio-react
 # dependences installées dans l'application
 
 bootstrap => npm install react-bootstrap bootstrap
+Routeur => npm install react-router-dom
 
 
 

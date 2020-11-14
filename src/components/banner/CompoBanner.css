@@ -1,0 +1,111 @@
+/**
+ * @author j.boero
+ * Projet : Portfolio
+ * * Novembre 2020
+ * 
+ * Compo Style Banner
+ * 
+ */
+body.is-touch #banner {
+    background-attachment: scroll;
+}
+h1 {
+    color: #484848;
+    font-weight: 700;
+    font-size: 1.75em;
+    line-height: 1.5em;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+}
+
+#banner {
+    margin-top: 0;
+    padding: 16em 0 13em 0;
+    background-attachment: fixed;
+    background-image: url("../../assets/img/caroussel/slide2.png");
+    background-position: center top;
+    background-size: cover;
+    line-height: 1.75;
+    text-align: center;
+}
+
+#banner:last-child {
+    margin-bottom: 0;
+}
+
+#banner h1 {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 3.5em;
+    line-height: 1.35;
+    margin-bottom: 0.5em;
+}
+
+#banner p {
+    color: #aaaaaa;
+    font-size: 1.5em;
+    margin-bottom: 1.75em;
+    text-transform: uppercase;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    color: #f32853;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1280px) {
+
+    #banner {
+        padding: 14em 0 11em 0;
+    }
+
+    #banner h1 {
+        font-size: 2.5em;
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+
+    #banner {
+        padding: 9em 0 7em 0;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    #banner {
+        padding: 6em 2em 6em 2em;
+    }
+
+    #banner br {
+        display: none;
+    }
+
+    #banner h1 {
+        font-size: 2.25em;
+    }
+
+    #banner p {
+        font-size: 1.25em;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    #banner {
+        padding: 4em 2em 4em 2em;
+    }
+    .actions {
+        display: flex;
+        justify-content: center;
+        padding-left: 0%;
+    }
+}
+
