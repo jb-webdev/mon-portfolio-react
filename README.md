@@ -1,5 +1,10 @@
+# =====================================
+#     PROJET EN COURS DE REALISATION
+# =====================================
+
+
 # description
-Creation d'une application pour realiser un portfolio personnel en utilisant la librairie React.
+Creation d'une application pour réaliser un portfolio personnel en utilisant la librairie React.Js.
 
 
 # Mise en place de l'APPlication React
@@ -12,7 +17,8 @@ npx create-react-app mon-portfolio-react
 
 # dependences installées dans l'application
 
-bootstrap => 
+bootstrap => npm install react-bootstrap bootstrap
+
 
 
 
