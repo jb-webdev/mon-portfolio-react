@@ -19,6 +19,7 @@ import "./CompoAbout.css";
 export default function CompoAbout() {
     return (
         <section id="about" className="wrapper style1">
+            <h2 className="h2About">A propos de moi</h2>
 		    <Container className="container">
 				<Row className="pt-3 pb-5 align-items-center">
                     <Col className="boxeProfile" xs={12} md={6}>
@@ -27,8 +28,7 @@ export default function CompoAbout() {
                         </Row>
                     </Col>
                     <Col className="d-flex justify-content-center flex-wrap">
-                        <h2 className="h2About">A propos de moi</h2>
-                        <p className="para1About">Je suis developeur web Javavascript, Node.js, React</p>
+                        <h3>Je suis developeur web Javavascript, Node.js, React</h3>
                         <p>En 2020, j'ai terminé avec succès ma fomation de developpeur web avec Openclassrooms. J'ai aquis les compétences nécessaire d'un développeur Web Javascript, React, Express.js, Node.js.</p>
                         <p>Aujourd’hui, mes compétences conjuguées à mon expérience me permettent d’apporter des solutions concrètes en gardant une ouverture d’esprit forte, une volonté d’innover et un sens de l’écoute indispensable pour répondre au mieux aux besoins de vos clients.</p>
                         <div>

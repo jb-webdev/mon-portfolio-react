@@ -7,6 +7,8 @@
  * 
  */
 .h2About {
+    width: 100%;
+    text-align: center;
     font-size: 3em;
     display: inline-block;
 	margin: 0 0 0.8em;
