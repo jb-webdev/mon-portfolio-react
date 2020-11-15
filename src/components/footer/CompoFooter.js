@@ -20,7 +20,7 @@ export default function CompoFooter() {
 						<li><a href="mailto:j.boero@icloud.com" target="_blank" rel="noopener noreferrer"><span className="fas fa-paper-plane"></span></a></li>
 					</ul>
 					<ul className="copyright">
-						<li>&copy; jean-jacques BOERO 2020</li>
+						<li>&copy; Jean-Jacques BOERO 2020</li>
 					</ul>
 				</div>
 			</footer>

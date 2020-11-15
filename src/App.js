@@ -11,6 +11,7 @@ import {BrowserRouter} from 'react-router-dom';
 import CompoHeader from './components/header/CompoHeader';
 import CompoBanner from './components/banner/CompoBanner';
 import CompoAbout from './components/about/CompoAbout';
+import CompoSkills from './components/skills/CompoSkills';
 import CompoFooter from './components/footer/CompoFooter';
 
 import './App.css';
@@ -25,6 +26,7 @@ function App() {
         <CompoHeader />
         <CompoBanner />
         <CompoAbout />
+        <CompoSkills />
         <CompoFooter />
 
       </BrowserRouter>

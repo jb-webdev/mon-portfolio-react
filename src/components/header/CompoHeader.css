@@ -6,14 +6,13 @@
  * Compo Style Header
  * 
  */
-/* header, nav {
+header, nav {
     display: block;
-} */
-
+}
 .nav-theme {
     background-color: #0f0f0ff8;
     font-size: 15px;
-  }
+}
   
 .animate-navbar {
     box-shadow: 1px 1px 1px #222;

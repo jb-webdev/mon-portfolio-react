@@ -19,7 +19,7 @@ import "./CompoAbout.css";
 export default function CompoAbout() {
     return (
         <section id="about" className="wrapper style1">
-            <h2 className="h2About">A propos de moi</h2>
+            <h2 className="h2About">A PROPOS DE MOI</h2>
 		    <Container className="container">
 				<Row className="pt-3 pb-5 align-items-center">
                     <Col className="boxeProfile" xs={12} md={6}>

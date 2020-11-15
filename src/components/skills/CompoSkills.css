@@ -1,0 +1,61 @@
+/**
+ * @author j.boero
+ * Projet : Portfolio
+ * * Novembre 2020
+ * 
+ * Compo style skills
+ * 
+ */
+#skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+}
+#boxkills{
+    display: flex;
+    justify-content: center;
+}
+.focus {
+    transition: transform 0.3s;
+}
+  
+.focus:hover {
+    transform: scale(1.05);
+}
+  
+.card-title {
+    font-size: 2em;
+    font-weight: 700;
+}
+  
+.image-style {
+    width: 2em;
+}
+  
+.font-details {
+    font-size: 3em;
+    font-weight: 500;
+    color: #231d5af8;
+}
+  
+.font-details-b {
+    font-size: 3em;
+    font-weight: 500;
+}
+@media screen and (max-width: 930px) {
+    #skills {
+        
+    }
+    #boxkills{
+        max-width: 95%;
+    }
+    .card-title {
+        font-size: 1.5em; 
+    }
+    .card-text {
+        text-align: center;
+    }
+}
+  

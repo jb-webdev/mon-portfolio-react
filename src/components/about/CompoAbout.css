@@ -20,7 +20,8 @@ p {
 .profile {
     max-width: 300px;
   }
-.about {
+#about {
+    padding-top: 1rem !important;
     background-color: transparent;
     font-size: 1.1em;
   }
