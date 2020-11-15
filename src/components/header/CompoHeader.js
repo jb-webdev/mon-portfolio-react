@@ -27,8 +27,8 @@ export default function CompoHeader() {
                     <Nav className="ml-auto">
                         <Nav.Link to="#home">Home</Nav.Link>
                         <Nav.Link to="#about">About</Nav.Link>
-                        <Nav.Link to="#skills">Skills</Nav.Link>
                         <Nav.Link to="#experience">Experience</Nav.Link>
+                        <Nav.Link to="#skills">Skills</Nav.Link>
                         <Nav.Link to="#projects">Projects</Nav.Link>
                         <Nav.Link to="#contact">Contact</Nav.Link>
                     </Nav>
