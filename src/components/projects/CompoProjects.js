@@ -20,7 +20,7 @@ import L_REACT from "../../assets/img/skills/react.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
 import L_MONGODB from "../../assets/img/skills/mongodb.svg";
-import Image from "react-bootstrap/Image";
+// import Image from "react-bootstrap/Image";
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_SASS from "../../assets/img/skills/sass-1.svg";
@@ -53,10 +53,10 @@ export default function CompoProjects() {
                             <img src={L_CSS3} className="imageSpan" alt="logo html" />
                         </span>
                         <span>
-                            <img src={L_BOOTSTRAP4} className="imageSpan" alt="logo bootstrap" />
+                            <img src={L_REACT} className="imageSpan" alt="logo react" />
                         </span>
                         <span>
-                            <img src={L_REACT} className="imageSpan" alt="logo react" />
+                            <img src={L_REACT_BOOTSTRAP} className="imageSpan" alt="logo bootstrap" />
                         </span>
                         <span>
                             <img src={L_JAVASCRIPT} className="imageSpan" alt="logo javascript" />
