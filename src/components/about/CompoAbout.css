@@ -36,3 +36,11 @@ p {
         }
 
 }
+@media screen and (max-width: 749px) {
+
+    .profile {
+        max-width: 200px;
+        max-height: auto;
+      }
+
+}

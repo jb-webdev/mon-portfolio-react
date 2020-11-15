@@ -25,12 +25,12 @@ export default function CompoHeader() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto">
-                        <Nav.Link to="#home">Home</Nav.Link>
-                        <Nav.Link to="#about">About</Nav.Link>
-                        <Nav.Link to="#experience">Experience</Nav.Link>
-                        <Nav.Link to="#skills">Skills</Nav.Link>
-                        <Nav.Link to="#projects">Projects</Nav.Link>
-                        <Nav.Link to="#contact">Contact</Nav.Link>
+                        <Nav.Link href="#banner">Home</Nav.Link>
+                        <Nav.Link href="#about">About</Nav.Link>
+                        <Nav.Link href="#experience">Experience</Nav.Link>
+                        <Nav.Link href="#skills">Skills</Nav.Link>
+                        <Nav.Link href="#projects">Projects</Nav.Link>
+                        <Nav.Link href="#footer">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar> 

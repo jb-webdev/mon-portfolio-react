@@ -7,7 +7,7 @@
  * 
  */
 import React from 'react';
-import {Link} from 'react-router-dom';
+import Nav from 'react-bootstrap/Nav';
 import './CompoBanner.css';
 
 
@@ -18,7 +18,7 @@ function CompoBanner() {
 				<h1>Jean-Jacques BOERO</h1>
 				<p>Developpeur Web JavaScript</p>
 				<ul className="actions">
-					<li><Link to="#contact" className="button special big">Me contacter</Link></li>
+					<li><Nav.Link href="#footer" className="button special big">Me contacter</Nav.Link></li>
 				</ul>
 			</section>
         </div>
