@@ -107,5 +107,10 @@ a:hover {
         justify-content: center;
         padding-left: 0%;
     }
+    #banner {
+        
+        background-image: url("../../assets/img/caroussel/slide2-min.webp");
+        
+    }
 }
 
