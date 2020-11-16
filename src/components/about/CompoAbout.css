@@ -21,9 +21,9 @@ p {
     max-width: 300px;
   }
 #about {
-    padding-top: 1rem !important;
     background-color: transparent;
     font-size: 1.1em;
+    padding-top: 1em;
   }
 .my-details {
     background-color: #ffffffbe;

@@ -6,7 +6,7 @@
  * Compo Style Experience
  * 
  */
- .img-resize {
+.img-resize {
     width: 10em;
 }
   
@@ -16,6 +16,7 @@
   
 .jumbo-style {
     background-image: linear-gradient(-225deg, #2cd8d5 0%, #6b8dd6 48%, #8e37d7 100%);
+    padding-top: 1em;
 }
   
 .body-title-style {
@@ -24,9 +25,12 @@
 }
 
   @media screen and (max-width: 480px) {
-      .styleTitle {
-          font-size: 20px;
-      }
+    .styleTitle {
+        font-size: 20px;
+    }
+    .img-resize {
+        max-width: 50%;
+    }
     
     .style {
         font-size: 15px;

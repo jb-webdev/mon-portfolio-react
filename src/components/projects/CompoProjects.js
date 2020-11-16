@@ -36,6 +36,7 @@ export default function CompoProjects() {
     return (
         <div id="projects">
             <VerticalTimeline>
+                <h2 className="pt-3 text-center font-details-b pb-3">Projets</h2>
                 {/* Projet 8 */}
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"

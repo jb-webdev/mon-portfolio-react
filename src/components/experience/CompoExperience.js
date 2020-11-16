@@ -17,8 +17,8 @@ import "./CompoExperience.css";
 export default function CompoExperience() {
     return (
         <div id="experience">
-            <h1 className="pt-3 text-center font-details-b pb-3">EXPERIENCE</h1>
             <Jumbotron className="jumbo-style">
+            <h2 className="pt-3 text-center font-details-b pb-3">EXPERIENCE</h2>
                 <Container>
                     <Tilt options={{ max: 25 }}>
                         <Card>
