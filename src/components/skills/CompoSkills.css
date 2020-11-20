@@ -46,9 +46,7 @@
     font-weight: 500;
 }
 @media screen and (max-width: 930px) {
-    #skills {
-        
-    }
+   
     #boxkills{
         max-width: 95%;
     }
