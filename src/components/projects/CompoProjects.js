@@ -17,16 +17,16 @@ import {VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline
 // skills
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_REACT from "../../assets/img/skills/react.svg";
-import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
+import L_NODE_JS from "../../assets/img/skills/nodejs.png";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
-import L_MONGODB from "../../assets/img/skills/mongodb.svg";
+import L_MONGODB from "../../assets/img/skills/mongodb.png";
 // import Image from "react-bootstrap/Image";
-import L_HTML5 from "../../assets/img/skills/html-5.svg";
-import L_CSS3 from "../../assets/img/skills/css3.svg";
-import L_SASS from "../../assets/img/skills/sass-1.svg";
+import L_HTML5 from "../../assets/img/skills/html5.png";
+import L_CSS3 from "../../assets/img/skills/css3.png";
+import L_SASS from "../../assets/img/skills/sass.png";
 import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
 import L_GIT from "../../assets/img/skills/github-api.svg";
-import L_MYSQL from "../../assets/img/skills/mysql.svg";
+import L_MYSQL from "../../assets/img/skills/mysql.png";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 
 import './StyleVerticalLine.css';

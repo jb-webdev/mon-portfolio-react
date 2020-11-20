@@ -11,16 +11,19 @@
 } 
 
 .imageSpan{
-    width: 30px;
+    width: 40px;
+    
 }
 .boxSpanLogo {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
 }
 .vertical-timeline-element-date {
     color: #1d1c1c;
 }
+
   
   
   
