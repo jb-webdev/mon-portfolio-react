@@ -23,11 +23,8 @@
     font-size: 25px;
     font-weight: 800;
 }
-
-  @media screen and (max-width: 480px) {
-    .styleTitle {
-        font-size: 20px;
-    }
+@media screen and (max-width: 768px) {
+    
     #BoxlogoOpenclassroom{
         background-color: #ffffff;
         border: none;
@@ -38,7 +35,12 @@
         margin-bottom: 10px; */
         display: none;
     }
-    
+  }
+
+  @media screen and (max-width: 480px) {
+    .styleTitle {
+        font-size: 20px;
+    }
     .style {
         font-size: 15px;
     }
