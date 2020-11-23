@@ -22,7 +22,7 @@ export default function CompoExperience() {
                 <Container>
                     <Tilt options={{ max: 25 }}>
                         <Card>
-                            <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
+                            <Card.Header as="h5" id="BoxlogoOpenclassroom" className="d-flex justify-content-center flex-wrap">
                                 <Card.Img variant="top" className="img-resize" src={OPENCLASSROOMS} alt="Accenture logo" />
                             </Card.Header>
                             <Card.Body className="d-flex justify-content-center flex-column">
