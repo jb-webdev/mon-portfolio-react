@@ -38,10 +38,10 @@ export default function CompoExperience() {
                                         <strong>Description</strong>
                                         <ul className="text-left">
                                             <li><strong>Optimisation SEO :</strong> Optimisation d'un site web existant et mise en place des bonnes pratique SEO.</li>
-                                            <li><strong>Frontend :</strong> Créer une application e-commerce avec Javascript et utiliser une API avec AJAX </li>
-                                            <li><strong>Backend noSQL :</strong> Création d'API, en utilisant les technologies OWASP,Node.js, MongoDB et Express.</li>
+                                            <li><strong>Frontend :</strong> Créer une application e-commerce avec Javascript, utiliser un API. </li>
+                                            <li><strong>Backend noSQL :</strong> Création d'API, en utilisant Node.js, MongoDB et Express tout en respectant les recommandation de l'OWASP.</li>
                                             <li><strong>Backend SQL :</strong> Créer et manipuler une base de données MySQL.</li>
-                                            <li><strong>Ce portfolio :</strong> Création de ce portfolio avec le framwork React.js hors formation.</li>
+                                            <li><strong>Ce portfolio :</strong> Crée un portfolio avec React.js hors formation.</li>
                                         </ul> 
                                     </Card.Text>
                                 </div>

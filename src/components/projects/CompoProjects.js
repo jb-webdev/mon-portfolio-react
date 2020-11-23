@@ -45,7 +45,7 @@ export default function CompoProjects() {
                 >
                     <h3 className="vertical-timeline-element-title">Portfolio</h3>
                     <h4 className="vertical-timeline-element-subtitle">Mise en place de mon portfolio</h4>
-                    <p>Réalisation de ce portfolio avec React.js</p>
+                    <p>Création de mon portfolio avec React.js</p>
                     <p className="boxSpanLogo" >
                         <span>
                             <img src={L_HTML5} className="imageSpan" alt="logo html" />
@@ -79,8 +79,8 @@ export default function CompoProjects() {
                 >
                     <h3 className="vertical-timeline-element-title">Réseau social d'entreprise</h3>
                     <h4 className="vertical-timeline-element-subtitle">Frontend & Backend</h4>
-                    <p> Création de la BDD en MySql, Realiser et utiliser une API Express, ainsi que le Framework React.Js côte.</p>
-                    <p>J'ai acquis les competences suivantes :  
+                    <p> Création de la BDD en MySql, Realiser et utiliser une API Express, ainsi que le Framework React.Js côte Frontend.</p>
+                    <p>J'ai acquis les compétences suivantes :  
                         Authentifier un utilisateur et maintenir sa session; 
                         Implémenter un stockage de données sécurisé en utilisant SQL;
                         Gérer un stockage de données à l'aide de SQL;
@@ -119,7 +119,7 @@ export default function CompoProjects() {
                     <h3 className="vertical-timeline-element-title">Construction d'une API sécurisée</h3>
                     <h4 className="vertical-timeline-element-subtitle">Backend</h4>
                     <p> Construction d'une Api Express sécurisée, en utilisant Node.Js, Express, MongoDb, Postman.</p>
-                    <p>J'ai acquis les competences suivantes :  
+                    <p>J'ai acquis les compétences suivantes :  
                         Implémenter un modèle logique de données conformément à la réglementation;
                         Stocker des données de manière sécurisée;
                         Mettre en œuvre des opérations CRUD de manière sécurisée.
@@ -150,8 +150,8 @@ export default function CompoProjects() {
                 >
                     <h3 className="vertical-timeline-element-title">Construire un site e-commerce</h3>
                     <h4 className="vertical-timeline-element-subtitle">Frontend</h4>
-                    <p> Construire le MVP d'une application e-commerce en utilisant que javascript et sans framework.</p>
-                    <p>J'ai acquis les competences suivantes :  
+                    <p> Construire une application e-commerce en utilisant que javascript et sans framework.</p>
+                    <p>J'ai acquis les compétences suivantes :  
                         Valider des données issues de sources externes;
                         Créer un plan de test pour une application;
                         Interagir avec un web service avec JavaScript.
@@ -186,7 +186,7 @@ export default function CompoProjects() {
                     <h3 className="vertical-timeline-element-title">Optimiser un site web existant</h3>
                     <h4 className="vertical-timeline-element-subtitle">Frontend</h4>
                     <p> Rédaction d'un rapport d'analyse SEO d'un site existant, améliorer et optimiser son code source, redaction d'un rapport d'optimisation avec comparaison des tests avant et après modification.</p>
-                    <p>J'ai acquis les competences suivantes :  
+                    <p>J'ai acquis les compétences suivantes :  
                         Assurer l'accessibilité d'un site web.
                         Réaliser une recherche des bonnes pratiques en développement web; 
                         Écrire un code HTML et CSS maintenable; 
@@ -220,7 +220,7 @@ export default function CompoProjects() {
                     <h3 className="vertical-timeline-element-title">Dynamiser une page web avec du css</h3>
                     <h4 className="vertical-timeline-element-subtitle">Frontend</h4>
                     <p> Intégrer une maquette web pour une application mobile d'un restaurant, en utilisant uniquement des effets css, sans framework.</p>
-                    <p>J'ai acquis les competences suivantes :  
+                    <p>J'ai acquis les compétences suivantes :  
                         Mettre en œuvre des effets CSS graphiques avancés;
                         Assurer la cohérence graphique d'un site web;
                         Mettre en place une structure de navigation pour un site web.
@@ -249,7 +249,7 @@ export default function CompoProjects() {
                     <h3 className="vertical-timeline-element-title">Transformer une maquette en site web</h3>
                     <h4 className="vertical-timeline-element-subtitle">Frontend</h4>
                     <p> Intégrer une maquette web pour une application mobile d'un restaurant, en utilisant uniquement des effets css, sans framework.</p>
-                    <p>J'ai acquis les competences suivantes :  
+                    <p>J'ai acquis les compétences suivantes :  
                         Intégrer du contenu conformément à une maquette;
                         Mettre en place son environnement Front-End;
                         Utiliser un système de gestion de versions pour le suivi du projet et son hébergement;
