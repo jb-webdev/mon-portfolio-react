@@ -9,28 +9,23 @@
 import React from 'react'
 import {VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
 
-
-
-
-
-
 // skills
-import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
-import L_REACT from "../../assets/img/skills/react.svg";
-import L_NODE_JS from "../../assets/img/skills/nodejs.png";
-import L_EXPRESS from "../../assets/img/skills/express.svg";
-import L_MONGODB from "../../assets/img/skills/mongodb.png";
+import L_JAVASCRIPT from "../assets/img/skills/javascript.svg";
+import L_REACT from "../assets/img/skills/react.svg";
+import L_NODE_JS from "../assets/img/skills/nodejs.png";
+import L_EXPRESS from "../assets/img/skills/express.svg";
+import L_MONGODB from "../assets/img/skills/mongodb.png";
 // import Image from "react-bootstrap/Image";
-import L_HTML5 from "../../assets/img/skills/html5.png";
-import L_CSS3 from "../../assets/img/skills/css3.png";
-import L_SASS from "../../assets/img/skills/sass.png";
-import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
-import L_GIT from "../../assets/img/skills/github-api.svg";
-import L_MYSQL from "../../assets/img/skills/mysql.png";
-import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
+import L_HTML5 from "../assets/img/skills/html5.png";
+import L_CSS3 from "../assets/img/skills/css3.png";
+import L_SASS from "../assets/img/skills/sass.png";
+import L_BOOTSTRAP4 from "../assets/img/skills/bootstrap-4.svg";
+import L_GIT from "../assets/img/skills/github-api.svg";
+import L_MYSQL from "../assets/img/skills/mysql.png";
+import L_REACT_BOOTSTRAP from "../assets/img/skills/react-bootstrap.svg";
 
-import './StyleVerticalLine.css';
-import './CompoProjects.css';
+import '../sass/StyleVerticalLine.scss';
+import '../sass/CompoProjects.scss';
 
 export default function CompoProjects() {
     return (
@@ -51,7 +46,10 @@ export default function CompoProjects() {
                             <img src={L_HTML5} className="imageSpan" alt="logo html" />
                         </span>
                         <span>
-                            <img src={L_CSS3} className="imageSpan" alt="logo html" />
+                            <img src={L_CSS3} className="imageSpan" alt="logo css" />
+                        </span>
+                        <span>
+                            <img src={L_SASS} className="imageSpan" alt="logo sass" />
                         </span>
                         <span>
                             <img src={L_REACT} className="imageSpan" alt="logo react" />
@@ -161,7 +159,7 @@ export default function CompoProjects() {
                             <img src={L_HTML5} className="imageSpan" alt="logo html" />
                         </span>
                         <span>
-                            <img src={L_CSS3} className="imageSpan" alt="logo html" />
+                            <img src={L_CSS3} className="imageSpan" alt="logo css" />
                         </span>
                         <span>
                             <img src={L_SASS} className="imageSpan" alt="logo Sass" />
@@ -198,7 +196,7 @@ export default function CompoProjects() {
                             <img src={L_HTML5} className="imageSpan" alt="logo html" />
                         </span>
                         <span>
-                            <img src={L_CSS3} className="imageSpan" alt="logo html" />
+                            <img src={L_CSS3} className="imageSpan" alt="logo css" />
                         </span>
                         <span>
                             <img src={L_SASS} className="imageSpan" alt="logo Sass" />
@@ -230,7 +228,7 @@ export default function CompoProjects() {
                             <img src={L_HTML5} className="imageSpan" alt="logo html" />
                         </span>
                         <span>
-                            <img src={L_CSS3} className="imageSpan" alt="logo html" />
+                            <img src={L_CSS3} className="imageSpan" alt="logo css" />
                         </span>
                         <span>
                             <img src={L_SASS} className="imageSpan" alt="logo Sass" />
@@ -260,7 +258,7 @@ export default function CompoProjects() {
                             <img src={L_HTML5} className="imageSpan" alt="logo html" />
                         </span>
                         <span>
-                            <img src={L_CSS3} className="imageSpan" alt="logo html" />
+                            <img src={L_CSS3} className="imageSpan" alt="logo css" />
                         </span>
                         <span>
                             <img src={L_GIT} className="imageSpan" alt="Github" />

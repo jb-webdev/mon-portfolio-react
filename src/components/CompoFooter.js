@@ -7,7 +7,7 @@
  * 
  */
 import React from 'react'
-import './CompoFooter.css';
+import '../sass/CompoFooter.scss';
 
 export default function CompoFooter() {
     return (

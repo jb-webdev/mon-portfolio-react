@@ -8,15 +8,16 @@
  */
 import React from 'react'
 
-import CompoHeader from './components/header/CompoHeader';
-import CompoBanner from './components/banner/CompoBanner';
-import CompoAbout from './components/about/CompoAbout';
-import CompoExperience from './components/experience/CompoExperience';
-import CompoSkills from './components/skills/CompoSkills';
-import CompoProjects from './components/projects/CompoProjects';
-import CompoFooter from './components/footer/CompoFooter';
+import CompoHeader from './components/CompoHeader';
+import CompoBanner from './components/CompoBanner';
+import CompoAbout from './components/CompoAbout';
+import CompoExperience from './components/CompoExperience';
+import CompoSkills from './components/CompoSkills';
+import CompoProjects from './components/CompoProjects';
+import CompoFooter from './components/CompoFooter';
 
-import './App.css';
+import './App.scss';
+import './sass/button/Button.scss'
 
 
 function App() {

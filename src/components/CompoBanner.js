@@ -8,7 +8,7 @@
  */
 import React from 'react';
 import Nav from 'react-bootstrap/Nav';
-import './CompoBanner.css';
+import '../sass/CompoBanner.scss';
 
 
 function CompoBanner() {

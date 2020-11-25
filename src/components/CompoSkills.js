@@ -7,13 +7,14 @@
  * 
  */
 import React from 'react'
-import './CompoSkills.css';
 import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import { Skills } from './skillsData';
+
+import '../sass/CompoSkills.scss';
 
 export default function CompoSkills() {
     return (

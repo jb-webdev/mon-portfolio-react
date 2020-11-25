@@ -6,6 +6,8 @@
  * Compo Style Experience
  * 
  */
+@import './utils/ColorVariables.scss';
+
 .img-resize {
     width: 10em;
 }
@@ -15,7 +17,7 @@
 }
   
 .jumbo-style {
-    background-image: linear-gradient(-225deg, #2cd8d5 0%, #6b8dd6 48%, #8e37d7 100%);
+    background-image: linear-gradient(-225deg, $gradientColor-1 0%, $gradientColor-2 48%, $gradientColor-3 100%);
     padding-top: 1em;
 }
   
@@ -23,12 +25,12 @@
     font-size: 25px;
     font-weight: 800;
 }
+#BoxlogoOpenclassrooms {
+    background-color: $BacckgroundBoxLogo !important;
+    border-bottom: none !important;
+}
 @media screen and (max-width: 768px) {
     
-    #BoxlogoOpenclassroom{
-        background-color: #ffffff;
-        border: none;
-    }
     .img-resize {
         /* max-width: 50%; */
         /* margin-top: 10px;

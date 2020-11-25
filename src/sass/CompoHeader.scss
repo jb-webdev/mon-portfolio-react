@@ -6,16 +6,22 @@
  * Compo Style Header
  * 
  */
+@import './utils/ColorVariables.scss';
+
+
 header, nav {
     display: block;
 }
 .nav-theme {
-    background-color: #0f0f0ff8;
-    font-size: 15px;
+    background-color: $backgroundHeader;
+    font-size: 25px;
+}
+#navLinkheader:hover {
+  color: $colorButtonBanner !important;
 }
   
 .animate-navbar {
-    box-shadow: 1px 1px 1px #222;
+    box-shadow: 1px 1px 1px $colorShadowHeader;
     animation: moveDown 0.5s ease-in-out;
 }
 
@@ -30,11 +36,21 @@ header, nav {
 h1.h1Nav{
     margin-bottom: 0em;
     font-size: 30px;
-    color: #61dafb; 
+    color: $colorH1Banner; 
 }
 
+@media screen and (max-width: 945px) {
+  .nav-theme {
+    font-size: 20px;
+  }   
+}
+@media screen and (max-width: 850px) {
+  .nav-theme {
+    font-size: 15px;
+  }
+}
 @media screen and (max-width: 780px) {
   h1.h1Nav {
-    font-size: 20px;
+    font-size: 30px;
   }
 }

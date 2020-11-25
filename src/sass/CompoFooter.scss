@@ -6,10 +6,13 @@
  * Compo Style Footer
  * 
  */
- #footer {
+@import './utils/ColorVariables.scss';
+
+
+#footer {
     padding: 5em 0 5em 0;
-    background: #f6f6f6;
-    color: #aaa;
+    background: $BacckgroundStyle-1;
+    color: $colorFontsFooter;
     text-align: center;
 }
 .icons {
@@ -23,12 +26,12 @@
     -webkit-transition: color 0.2s ease-in-out;
     -ms-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out;
-    color: #aaa;
+    color: $colorFontsFooter;
     text-decoration: none;
 }
 
 #footer a:active, #footer a:hover {
-    color: #666;
+    color: $colorFontsFooterHover;
 }
 #footer Span {
     font-size: 3em;
@@ -48,7 +51,6 @@
 }
 
 #footer .copyright li {
-    border-left: solid 1px #90909040;
     display: inline-block;
     list-style: none;
     margin-left: 1.5em;

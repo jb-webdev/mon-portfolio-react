@@ -8,6 +8,9 @@
     Source NPM : https://www.npmjs.com/package/react-vertical-timeline-component
  * 
  */
+@import './utils/ColorVariables.scss';
+
+
  .vertical-timeline * {
     box-sizing: border-box;
   }
@@ -209,7 +212,7 @@
     clear: both;
   }
   .vertical-timeline-element-content h2 {
-    color: #303e49;
+    color: $h2verticaleTimeline;
   }
   .vertical-timeline-element-content p, .vertical-timeline-element-content .vertical-timeline-element-date {
     font-size: 13px;

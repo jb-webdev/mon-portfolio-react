@@ -11,8 +11,8 @@ import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Card from "react-bootstrap/Card";
 import Tilt from 'react-tilt'
-import OPENCLASSROOMS from "../../assets/img/experience/openclassrooms.svg";
-import "./CompoExperience.css";
+import OPENCLASSROOMS from "../assets/img/experience/openclassrooms.svg";
+import "../sass/CompoExperience.scss";
 
 export default function CompoExperience() {
     return (
@@ -22,7 +22,7 @@ export default function CompoExperience() {
                 <Container>
                     <Tilt options={{ max: 25 }}>
                         <Card>
-                            <Card.Header as="h5" id="BoxlogoOpenclassroom" className="d-flex justify-content-center flex-wrap">
+                            <Card.Header as="h5" id="BoxlogoOpenclassrooms" className="d-flex justify-content-center flex-wrap">
                                 <Card.Img variant="top" className="img-resize" src={OPENCLASSROOMS} alt="Accenture logo" />
                             </Card.Header>
                             <Card.Body className="d-flex justify-content-center flex-column">

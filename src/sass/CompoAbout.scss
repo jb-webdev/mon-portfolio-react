@@ -6,6 +6,12 @@
  * Compo Style About
  * 
  */
+@import './utils/ColorVariables.scss';
+
+#about{
+    background-color: $BacckgroundStyle-1 !important;
+}
+
 .h2About {
     width: 100%;
     text-align: center;
@@ -25,9 +31,7 @@ p {
     font-size: 1.1em;
     padding-top: 1em;
   }
-.my-details {
-    background-color: #ffffffbe;
-}
+
 
 @media screen and (max-width: 1280px) {
 

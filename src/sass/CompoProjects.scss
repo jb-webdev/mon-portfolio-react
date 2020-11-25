@@ -6,8 +6,11 @@
  * Compo Style Projets
  * 
  */
+@import './utils/ColorVariables.scss';
+
+
 #projects {
-    background-image: linear-gradient(-225deg, #2cd8d5 0%, #6b8dd6 48%, #8e37d7 100%);
+    background-image: linear-gradient(-225deg, $gradientColor-1 0%, $gradientColor-2 48%, $gradientColor-3 100%);
 } 
 
 .imageSpan{
@@ -21,7 +24,7 @@
     
 }
 .vertical-timeline-element-date {
-    color: #1d1c1c;
+    color: $colorTimeLine;
 }
 
   

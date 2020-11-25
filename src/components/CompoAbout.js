@@ -11,9 +11,9 @@ import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image';
-import Profile from '../../assets/img/profile/profile.png';
+import Profile from '../assets/img/profile/profile.png';
 import Button from "react-bootstrap/Button";
-import "./CompoAbout.css";
+import "../sass/CompoAbout.scss";
 
 
 export default function CompoAbout() {

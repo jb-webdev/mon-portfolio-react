@@ -6,12 +6,15 @@
  * Compo style skills
  * 
  */
+@import './utils/ColorVariables.scss';
+
+
 #skills {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: #ffffff;
+    background-color: $BacckgroundBoxLogo;
 }
 #boxkills{
     display: flex;
@@ -32,13 +35,12 @@
   
 .image-style {
     width: 2em;
-    
 }
   
 .font-details {
     font-size: 3em;
     font-weight: 500;
-    color: #231d5af8;
+    color: $colorFontsDetails;
 }
   
 .font-details-b {
