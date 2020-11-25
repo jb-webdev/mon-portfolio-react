@@ -26,6 +26,11 @@
 .vertical-timeline-element-date {
     color: $colorTimeLine;
 }
+@media screen and (max-width: 500px) {
+    .imageSpan{
+        width: 30px;
+    }
+  }
 
   
   
